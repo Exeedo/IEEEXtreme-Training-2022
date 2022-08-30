@@ -6,5 +6,5 @@ The training includes live lectures, videos, explanations and more.
 - Problems of previous IEEEXtreme Problems can be found on [CSAcademy](https://csacademy.com/ieeextreme-practice/tasks).
 - The scripts used in lectures can be found under different folders according to their main topics.
 - The recordings of lectures can be found at this YouTube Playlist (to be added later).
-- The content of the training can be found at this Google Document (to be added later).
+- The content of the training can be found at this [Google Document](https://tinyurl.com/ieeextreme-2022).
 - You can join this [Facebook Group](https://www.facebook.com/groups/810653100346078) to follow up with the training or send a message on [Telegram](https://t.me/Exeedo) to contact the coach.
