@@ -4,7 +4,7 @@
 #include <queue> // for queue and priority queue
 using namespace std;
 
-int V, e;
+int V, E;
 vector<vector<int>> adj;
 vector<int> dist;
 
@@ -25,12 +25,12 @@ void traversal(int s) {
 }
 
 int main() {
-	cin >> V >> e;
+	cin >> V >> E;
 	adj.resize(V+1);
 	dist.resize(V+1);
 	for (int i = 1; i <= V; i++)
 		dist[i] = -1;
-	for (int i = 0; i < e; i++) {
+	for (int i = 0; i < E; i++) {
 		int u, v, w;
 		cin >> u >> v >> w; // weight is not used for BFS
 		adj[u].push_back(v);
