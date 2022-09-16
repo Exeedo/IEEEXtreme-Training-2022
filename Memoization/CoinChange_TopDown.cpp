@@ -42,5 +42,9 @@ int main() {
 		cin >> coins[i];
 
 	// Printing answer
-	cout << solve(n) << endl;
+	int ans = solve(n);
+	if (ans == -1)
+	    cout << "No answer!" << endl;
+	else
+	    cout << ans << endl;
 }
