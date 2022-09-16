@@ -6,6 +6,7 @@ int n, c;
 vector<int> coins;
 vector<int> dp;
 
+// Calculating in Top-Down approach
 int solve(int n) {
 	// Calculated before and saved
 	if (dp[n] != -1)
@@ -16,8 +17,8 @@ int solve(int n) {
 		return 0;
 
 	int ans = 1e9; // 10^9 (infinity)
-	for (int i = 0; i < c; i++) {
-		int possible_ans = solve(n - coins[i]) + 1;
+	for (int coin : coins) {
+		int possible_ans = solve(n - coin) + 1;
 		if (possible_ans < ans)
 			ans = possible_ans;
 	}
