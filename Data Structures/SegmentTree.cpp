@@ -15,8 +15,9 @@ void build(int node_idx, int node_start, int node_end) {
 		return;
 	}
 	int md = (node_start + node_end) / 2;
-	build(node_idx*2, node_start, md); // left child
+	build(node_idx * 2, node_start, md); // left child
 	build(node_idx * 2+1, md+1, node_end); // right child
+	seg[node_idx] = min(seg[node_idx * 2], seg[node_idx * 2 + 1]);
 }
 
 void propagate(int node_idx) {
